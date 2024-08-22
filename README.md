@@ -18,4 +18,23 @@ Este projeto demonstra a criação e uso de componentes React básicos. Ele incl
 - Funções de Manipulação de Eventos: Implementação de funções que reagem a eventos, como cliques de botões.
 - Valores Padrão para Props: Definição de valores padrão para propriedades dos componentes.
 
-[React Component Project]
+## Como Rodar o Projeto 💻
+1 - Clone o Repositório
+
+`git clone <URL_DO_REPOSITORIO>`
+
+Navegue para o Diretório do Projeto
+
+`cd <NOME_DO_DIRETORIO>`
+
+2 - Instale as Dependências
+Certifique-se de ter o Node.js e o npm instalados. Execute o seguinte comando para instalar as dependências:
+
+`npm install`
+
+3 - Inicie o Servidor de Desenvolvimento
+Execute o comando abaixo para iniciar a aplicação:
+
+`npm start`
+
+Isso iniciará o servidor de desenvolvimento e abrirá a aplicação no navegador padrão.
