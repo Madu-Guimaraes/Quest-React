@@ -22,10 +22,12 @@ Este projeto demonstra a criação e uso de componentes React básicos. Ele incl
 1 - Clone o Repositório
 
 `git clone <URL_DO_REPOSITORIO>`
+`git clone https://github.com/Madu-Guimaraes/Quest-React`
 
 Navegue para o Diretório do Projeto
 
 `cd <NOME_DO_DIRETORIO>`
+`cd Quest-React`
 
 2 - Instale as Dependências
 Certifique-se de ter o Node.js e o npm instalados. Execute o seguinte comando para instalar as dependências:
