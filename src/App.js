@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+// Importando o componente se ele estiver em um arquivo separado
+import ColoredUppercaseText from './components/component';
+import Button from './components/button/button'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* Chamando o componente e passando as props de cor e estado do paragrafo */}
+      <ColoredUppercaseText text="Meu cérebro é mais do que algo meramente mortal, e o tempo mostrará isso. - Ada Lovelace" color="blue" />
+      <Button label="Baixar CV" />
+      <Button label="Cancelar" />
+      <Button />
     </div>
   );
 }
